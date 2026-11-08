@@ -27,7 +27,7 @@ const SOLUTIONS = [
     title: "Automação de Processos",
     icon: Workflow,
     description:
-      "Integrações de ponta a ponta e fluxos automatizados (n8n, APIs e Webhooks) que eliminam tarefas repetitivas e conectam ferramentas sem fricção.",
+      "Integrações de ponta a ponta e fluxos automatizados que eliminam tarefas repetitivas e conectam ferramentas sem fricção.",
     tag: "MENOS ATRITO, MAIS FLUXO",
     highlight: "Conexão sem Fricção",
   },
