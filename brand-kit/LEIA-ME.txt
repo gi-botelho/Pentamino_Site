@@ -1,0 +1,15 @@
+PENTAMINÓ — PROCESSOS INTELIGENTES
+KIT DO LOGOTIPO — PRIMEIRA VETORIZAÇÃO
+
+Inclui quatro arquivos SVG realmente vetoriais (contornos em curvas Bézier, sem imagens raster incorporadas e sem dependência de fontes), com respectivos PNGs de uso imediato:
+
+• Pentamino_Logo_Principal_Preto_Transparente.svg — logo para fundos claros
+• Pentamino_Logo_Invertido_Branco_Transparente.svg — logo branco para fundos escuros
+• Pentamino_Aplicacao_Fundo_Cinza_Quente.svg — aplicação sobre cinza quente #F4F3F0
+• Pentamino_Aplicacao_Fundo_Preto.svg — aplicação sobre preto #111111
+
+A construção usa UMA ÚNICA GEOMETRIA para as versões clara e escura: mesmas espessuras e espaçamentos. O quadrado separador foi mantido na posição aprovada sob a letra A.
+
+O redesenho segue de perto os contornos da imagem clara aprovada. Embora seja um SVG vetorial editável e redimensionável, é um traçado derivado de imagem: para impressão profissional em escala muito grande, recomenda-se uma última revisão manual das curvas, caso necessário.
+
+O SVG é a matriz para futuros arquivos de produção. Os PNGs são somente versões raster prontas para uso.

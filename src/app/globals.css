@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #f4f3ef;
+  --paper: #fbfbf9;
+  --white: #ffffff;
+  --ink: #141514;
+  --ink-muted: #62645e;
+  --ink-subtle: #8e918a;
+  --line: #dbdbd4;
+  --line-dark: #292a27;
+  --surface: #e9e8e2;
+  
+  /* Cor de destaque (Accent): Terracota arquitetural moderno */
+  --accent: #e05326;
+  --accent-hover: #c4431a;
+  --accent-light: #fbeee9;
+  --accent-glow: rgba(224, 83, 38, 0.22);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  background-color: var(--canvas);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--ink);
+  color: var(--white);
+}
+
+/* Utilitários visuais do Pentaminó */
+.architectural-grid {
+  background-image: 
+    linear-gradient(90deg, rgba(20, 21, 20, 0.05) 1px, transparent 1px),
+    linear-gradient(rgba(20, 21, 20, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.architectural-grid-dark {
+  background-image: 
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Efeito Glow sutil para cards e botões */
+.glow-card {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glow-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px -12px rgba(20, 21, 20, 0.08), 0 0 0 1px rgba(224, 83, 38, 0.25);
+}
+
